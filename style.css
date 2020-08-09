@@ -18,7 +18,7 @@
   --red:#fd7a91;
 }
 
-body , *{
+body {
   font-family: monospace !important;
   text-shadow: none!important;
 }
