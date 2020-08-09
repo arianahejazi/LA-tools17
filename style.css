@@ -27,102 +27,24 @@ body {
   outline: none !important;
 }
 
-#mainpage{
+#main{
   background: var(--light-gray-10)!important;
 }
 
-#progressbar{
-  border: 1px solid var(--light-gray)!important;
-  border-radius: 50px!important;
-  height: 25px!important;
-  margin-top: 20px!important;
-}
-.progress-label {
-  color: var(--light-black)!important;
-  text-shadow: none!important;
-}
-.ui-progressbar .ui-progressbar-value{
-  background: var(--light-tifany)!important;
-  border: none!important;
-  -webkit-box-sizing: border-box!important;
-          box-sizing: border-box!important;
-  margin: 0!important;
-  padding: 0!important;
-  height: 60px;
+#dataTable .tableRow:first-child{
+  border: 1px solid var(--light-gray-10);
+  background-color: var(--light-tifany);
 }
 
-.ui-field-contain label.ui-input-text{
-  margin: 0 10px!important;
-  background: transparent !important;
+.tableRow{
+  border: 1px solid var(--light-gray-10);
+  background-color: var(--white);
 }
 
-.ui-br {
-  border: none;
+.tableCell div input{
+  border: 1px solid var(--light-gray-10);
 }
 
-.ui-field-contain input.ui-input-text{
-  border-radius: 50px!important;
-  border: 1px solid var(--light-gray)!important;
-  padding-right: 15px!important;
-  padding-left: 15px!important;
-}
-
-
-.ui-shadow-inset {
-    -webkit-box-shadow: none!important;
-            box-shadow: none!important;
-}
-
-#page h3{
-  color: var(--light-black);
-}
-
-.feedbackText img{
-  display: none !important;
-}
-
-#fragen{
-  border: none !important;
-}
-
-.ui-btn-up-b{
-  border-radius: 50px!important;
-  border: 1px solid var(--light-gray)!important;
-  color: var(--white)!important;
-  background: var(--blue)!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-}
-
-.ui-btn-hover-b{
-  border-radius: 50px!important;
-  border: 1px solid var(--light-gray)!important;
-  color: var(--white)!important;
-  background: var(--blue)!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-  opacity: 0.5 !important;
-}
-
-.ui-btn-up-b:hover{
-  border-radius: 50px!important;
-  border: 1px solid var(--light-gray)!important;
-  color: var(--white)!important;
-  background: var(--blue)!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-  opacity: 0.5 !important;
-}
-
-.ui-btn{
-  border: 1px solid var(--light-gray)!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-}
-
-#feedbackText > span{
-  color: var(--red)!important;
-}
 
 
 /* check solve button */
