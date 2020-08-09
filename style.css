@@ -43,8 +43,7 @@ body {
 }
 
 .tableCell div input{
-  border: 1px solid var(--light-gray)!important;
-  background: var(--light-gray)!important;
+  border: 1.5px solid var(--light-gray)!important;
   border-radius: 50px!important;
 }
 
@@ -53,8 +52,7 @@ body {
 }
 
 .rowConnected {
-  background: var(--white)!important;
-  border-bottom: none!important;
+  border-bottom: 1px solid var(--light-gray)!important;;
   border-top: 1px solid var(--light-gray)!important;
 }
 
