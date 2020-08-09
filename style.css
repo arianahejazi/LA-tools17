@@ -33,33 +33,33 @@ body {
 }
 
 #dataTable .tableRow:first-child{
-  border: 1px solid var(--light-gray-10)!important;
+  border: 1px solid var(--light-gray)!important;
   background-color: var(--light-tifany)!important;
 }
 
 .tableRow{
-  border: 1px solid var(--light-gray-10)!important;
+  border: 1px solid var(--light-gray)!important;
   background-color: var(--white)!important;
 }
 
 .tableCell div input{
-  border: 1px solid var(--light-gray-10)!important;
-  background: var(--light-gray-10)!important;
+  border: 1px solid var(--light-gray)!important;
+  background: var(--light-gray)!important;
   border-radius: 50px!important;
 }
 
 .rowConnected:first-child{
-  border-left: 1px solid var(--light-gray-10)!important;
+  border-left: 1px solid var(--light-gray)!important;
 }
 
 .rowConnected {
-  background: var(--white);
-  border-bottom: none;
-  border-top: 1px solid var(--light-gray-10)!important;
+  background: var(--white)!important;
+  border-bottom: none!important;
+  border-top: 1px solid var(--light-gray)!important;
 }
 
 .rowConnected:last-child{
-  border-bottom: 1px solid var(--light-gray-10)!important;;
+  border-bottom: 1px solid var(--light-gray)!important;;
 }
 
 /* check solve button */
