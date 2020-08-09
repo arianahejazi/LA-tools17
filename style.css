@@ -32,20 +32,34 @@ body {
 }
 
 #dataTable .tableRow:first-child{
-  border: 1px solid var(--light-gray-10);
-  background-color: var(--light-tifany);
+  border: 1px solid var(--light-gray-10)!important;
+  background-color: var(--light-tifany)!important;
 }
 
 .tableRow{
-  border: 1px solid var(--light-gray-10);
-  background-color: var(--white);
+  border: 1px solid var(--light-gray-10)!important;
+  background-color: var(--white)!important;
 }
 
 .tableCell div input{
-  border: 1px solid var(--light-gray-10);
+  border: 1px solid var(--light-gray-10)!important;
+  background: var(--light-gray-10)!important;
+  border-radius: 50px!important;
 }
 
+.rowConnected:first-child{
+  border-left: 1px solid var(--light-gray-10)!important;
+}
 
+.rowConnected {
+  background: var(--white);
+  border-bottom: none;
+  border-top: 1px solid var(--light-gray-10)!important;
+}
+
+.rowConnected:last-child{
+  border-bottom: 1px solid var(--light-gray-10)!important;;
+}
 
 /* check solve button */
 #checkSolutionBtn{
