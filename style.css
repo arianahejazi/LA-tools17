@@ -42,6 +42,10 @@ body {
   background-color: var(--white)!important;
 }
 
+.tableRow div{
+    padding: 0!important;
+}
+
 .tableCell div input{
   border: 1.5px solid var(--light-gray)!important;
   border-radius: 50px!important;
